@@ -1,0 +1,46 @@
+.productContainer {
+    width: 400px;
+    height: 500px;
+    background-color: rgb(179, 179, 179);
+    font-size: 15px;
+    margin: 10px;
+    position: relative; /* Make this the reference point for absolute positioning */
+    color: white;
+    border-radius: 5px;
+}
+
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+}
+
+.productContainer img {
+    width: 15vw
+}
+
+
+
+.wrapper {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: transparent; /* Optional: semi-transparent background */
+    position: absolute; /* Position absolutely within the product container */
+    bottom: 0; /* Align it to the bottom of the productContainer */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    border-radius: 0px, 0px, 5px, 5px;
+}
+
+.overlay h1, p{
+    padding: 5px;
+    width: 100%;
+}
